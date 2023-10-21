@@ -1,0 +1,23 @@
+{
+  "name": "wcpe-salesforce-salesdorce-api-documentation",
+  "version": "2022.3.17",
+  "description": "WCPE Salesforce API endpoints",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "apidoc -i ./../WCPE-API-Plugin/classes/salesforce/ -o . -c ./../WCPE-API-Plugin/apidoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesternCPE/SalesForce-API-Documentation.git"
+  },
+  "author": "Bradford Knowlton Jr.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/WesternCPE/SalesForce-API-Documentation/issues"
+  },
+  "homepage": "https://github.com/WesternCPE/SalesForce-API-Documentation#readme",
+  "dependencies": {
+    "apidoc": "^0.51.0"
+  }
+}
